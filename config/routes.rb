@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
 
-  devise_for :users
-  root to: "email#index"
-  resources :tasks, except: [:show]
+  root to: "emails#index"
 
-  resources :emails do
-    put "/unread", to: "emails#unread"
-    put "/read", to: "emails#read"
-  end
-  #get 'registrations#new'
+  resources :emails
+  devise_for :users
+
+  resources :tasks, except: [:show]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

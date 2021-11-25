@@ -2,29 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ec3538-5b72-4f7e-a960-e7a8273b1100" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/email.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/email.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/email_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/email_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/email.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/_button.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/_email.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/_object.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/create.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/destroy.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/read.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/show.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/email/unread.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20211125104744_create_emails.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/email_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/emails.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/email_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/emails_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/_email.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/_email_show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/destroy.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/show.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/emails/show.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_task_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_task_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/email_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/_button.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/_email.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/_object.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/create.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/destroy.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/read.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/show.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/email/unread.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/emails/_email.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +73,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager" selected="Ruby.email_controller">
+  <component name="RunManager" selected="Ruby.emails_controller">
     <configuration name="Development: thp_todo_zero" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="thp_todo_zero" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -170,7 +175,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="email_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="emails_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="thp_todo_zero" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
@@ -185,13 +190,13 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/email_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/emails_controller.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.email_controller" />
+        <item itemvalue="Ruby.emails_controller" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637786091479</updated>
-      <workItem from="1637786094015" duration="17411000" />
+      <workItem from="1637786094015" duration="29266000" />
     </task>
     <servers />
   </component>

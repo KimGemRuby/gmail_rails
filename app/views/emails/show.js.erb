@@ -1,0 +1,5 @@
+
+document.getElementById("show").innerHTML = "";
+document.getElementById("show").insertAdjacentHTML("afterbegin", "<%= j render 'email_show', email: @email %>")
+
+console.log(email_show);
