@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RM-212.5457.52">
+    <data-source name="Rails thp_todo_zero: development" uuid="a6a60616-b825-42f9-b007-70518ccca600">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails thp_todo_zero: production" uuid="5f5a1466-9baf-430a-80f0-582d277f9ced">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>todolist-app</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails thp_todo_zero: test" uuid="32878713-bed1-4001-8aef-a3feacbfbb00">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
