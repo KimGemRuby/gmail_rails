@@ -1,0 +1,11 @@
+      alert("Hello World");
+
+      document.getElementById("new_task").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var formData = new FormData(this);
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/tasks.json");
+        xhr.send(formData);
+      });
+
+      document.getElementById
